@@ -12,8 +12,8 @@ export NODE_PATH=$(npm root --quiet -g)
 # make sure katex_cli is here
 cp /Users/kai/ref/katex_cli/target/debug/katex_cli katex_cli
 # Build new files
-# stack build --ghc-options=-O2
-# stack exec chaosite clean
+stack build --ghc-options=-O2
+stack exec chaosite clean
 stack exec kaisite build
 
 # make python environment
@@ -37,9 +37,9 @@ git add -A
 git commit -m "Publish."
 
 # Push
-git push origin main:main
+#git push origin main:main
 
 # Restoration
-git checkout develop
-git branch -D main
-git stash pop
+#git checkout develop
+##git branch -D main
+#git stash pop
