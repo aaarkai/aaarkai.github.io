@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Kai's Blog</title>
+        <link>https://aaarkai.github.io</link>
+        <description><![CDATA[Live, Learn, Create]]></description>
+        <atom:link href="https://aaarkai.github.io/cnrss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Sun, 09 Jun 2024 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>测试</title>
+    <link>https://aaarkai.github.io/cnposts/2024-06-09-testing.html</link>
+    <description><![CDATA[<br />
+<div><p>测试文档</p></div>
+<div class="hide-on-print">
+    <div class="info">
+        <a href="https://chaoxu.prof">汪恺</a>与<time datetime="2024-06-09"
+            >2024-06-09</time
+        >发布
+    </div>
+    <div class="info">标签: </div>
+</div>
+]]></description>
+    <pubDate>Sun, 09 Jun 2024 00:00:00 UT</pubDate>
+    <guid>https://aaarkai.github.io/cnposts/2024-06-09-testing.html</guid>
+    <dc:creator>Kai Wang</dc:creator>
+</item>
+
+    </channel>
+</rss>
