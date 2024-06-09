@@ -1,7 +1,7 @@
 _cache/
 _site/
 .stack-work/
-.DS_Store
+*.DS_Store
 tmp.txt
 *.lock
 node_modules/
