@@ -37,9 +37,9 @@ git add -A
 git commit -m "Publish."
 
 # Push
-#git push origin main:main
+git push origin main:main
 
 # Restoration
-#git checkout develop
-##git branch -D main
-#git stash pop
+git checkout develop
+git branch -D main
+git stash pop
