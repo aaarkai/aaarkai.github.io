@@ -1,13 +1,20 @@
 ---
 title: Tools
+tag: writing tools
+author: kai.wang
+creation date: 2024-06-14 01:28
+modification date: Friday 14th June 2024 01:29:02
 ---
 
 Here are some tools and resources that might be useful.
 
-I use Apple Notes and [Logseq](https://logseq.com/) for my note-taking needs. In most situations, Apple Notes and Reminders are sufficient to quickly capture my ideas. I use Logseq primarily for writing long-form articles. Additionally, I've developed some Apple Shortcuts powered by ChatGPT or Azure OpenAI API to:
-  - Convert voice recordings into text notes.
-  - Summarize my notes and generate to-do lists.
-  - Provide thought-provoking questions and advice.
+I use Apple Notes for my note-taking needs. In most situations, Apple Notes and Reminders are sufficient to quickly capture my ideas. Additionally, I've developed some Apple Shortcuts powered by ChatGPT or Azure OpenAI API to:
+
+ - Convert voice recordings into text notes.
+ - Summarize my notes and generate to-do lists.
+ - Provide thought-provoking questions and advice.
+
+[Obsidian](https://obsidian.md/) is used to write article in markdown. With [Zotero](https://www.zotero.org/), it's easy to capture and organize ideas when read papers.
 
 For coding, I rely on [Zed](https://zed.dev/). Zed is fast, simple, and powerful, effectively replacing VSCode in my workflow.
 

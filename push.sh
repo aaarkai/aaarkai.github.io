@@ -10,7 +10,7 @@ git pull
 export NODE_PATH=$(npm root --quiet -g)
 
 # make sure katex_cli is here
-cp /Users/kai/ref/katex_cli/target/debug/katex_cli katex_cli
+# cp /Users/kai/ref/katex_cli/target/debug/katex_cli katex_cli
 # Build new files
 stack build --ghc-options=-O2
 stack exec kaisite clean
