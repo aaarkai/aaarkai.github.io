@@ -21,7 +21,7 @@ stack exec kaisite build
 # source venv/bin/activate
 # pip3 install -r requirements.txt
 # Build index
-python3 pub.py > _site/index.html
+python pub.py > _site/index.html
 
 # Get previous files
 git fetch --all
