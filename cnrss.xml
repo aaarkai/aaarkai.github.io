@@ -22,7 +22,7 @@ class="header-section-number">1</span> 了解自己</h1>
 <li>在上面两件事都处在不错的水平时，财务上的建议才有意义</li>
 </ul>
 <p>规划自己的财务必须对自己有深入的了解，这样才能采用适合自己的方式，并在自己的整个投资生涯中坚持下去，而且可以控制自己的投资成本和情绪。</p>
-<p>** 尽早投资**</p>
+<p><strong>尽早投资</strong></p>
 <p>从复利的角度，越早投资越好，以最简单的计算公式为例: <span
 class="math display"> FV = PV (1 + i)^n </span> <span
 class="math inline">PV</span> 为初始净值，<span
@@ -60,7 +60,7 @@ Ego，避免过度自信，承担过多的风险；也要避免损失厌恶，�
 <li>警惕禀赋效应。比如年终奖不把一部分换成股票，股票不把一部分换成钱</li>
 </ul>
 <h1 data-number="2" id="开源"><span
-class="header-section-number">2</span> 2. 开源</h1>
+class="header-section-number">2</span> 开源</h1>
 <p><strong>了解自己的财富</strong></p>
 <p>如果从来不清楚自己有多少钱的情况下，可以找个周末花几个小时，用 Excel
 统计一下自己的净资产和每月固定收入。这里因为有一定的代码基础，我用的是
