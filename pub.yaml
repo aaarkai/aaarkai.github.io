@@ -37,7 +37,7 @@ types:
 id: poat_ml
 title: Passive ocean acoustic thermometry with machine learning
 type: journal
-show: [d]
+show: [d, a]
 year: 2021
 pub: AP
 authors: [Fenghua Li, Kai Wang, Xishan Yang, Bo Zhang, Yanjun Zhang]
@@ -53,7 +53,7 @@ abstract: >
 id: estimate_current
 title: Estimation of current speed from ocean ambient noise
 type: journal
-show: [d]
+show: [d, a]
 year: 2022
 pub: JAASX
 authors: [Kai Wang, Fenghua Li, Xishan Yang]
@@ -71,7 +71,7 @@ abstract: >
 id: pat_dl
 title: Shallow water passive acoustic tomography using dictionary learning
 type: journal
-show: [d]
+show: [d, a]
 year: 2022
 pub: TA
 authors: [Kai Wang, Fenghua Li, Xishan Yang]
@@ -84,7 +84,7 @@ abstract: >
 
 ---
 id: thesis
-show: [d, q]
+show: [d]
 title: 噪声提取格林函数在浅海声层析中的应用
 authors: [Kai Wang]
 type: thesis
