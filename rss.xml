@@ -7,69 +7,41 @@
         <description><![CDATA[Live, Learn, Create]]></description>
         <atom:link href="https://aaarkai.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sun, 09 Jun 2024 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Jul 2024 00:00:00 UT</lastBuildDate>
         <item>
-    <title>Find the square root of an integer with trigonometry and Lagrange's four-square theorem</title>
-    <link>https://aaarkai.github.io/posts/2024-06-09-testing.html</link>
+    <title>Shower-curtain effect</title>
+    <link>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</link>
     <description><![CDATA[<br />
-<div><p>My friend was solving the following problem during a interview for
-Citigroup’s IT department.</p>
-<div class="theorem-environment Problem" data-index="1" type="Problem">
-<span class="theorem-header"><span class="type">Problem</span><span
-class="index">1</span></span>
-<p>Find the square root of a integer n, without using the built in sqrt
-function. (The range of the result was not specified, I assume it’s
-double)</p>
-</div>
-<p>This is a common interview question.</p>
-<p>There are <a
-href="http://en.wikipedia.org/wiki/Methods_of_computing_square_roots">many
-ways to do it</a>. I want to come up with a way no one else would think
-of, something that could amaze the interviewer. I mean, she might
-interviewed enough people to get bored with the standard answers.</p>
-<p>I present the following highly inefficient but somewhat creative
-solution. <a
-href="https://github.com/chaoxu/mgccl-haskell/blob/master/random/sqrtOfInteger.hs">The
-code is here</a>.</p>
-<p>How does it work?</p>
-<p>We know <span class="math inline">n</span> is an integer. By <a
-href="http://en.wikipedia.org/wiki/Lagrange&#39;s_four-square_theorem">Lagrange’s
-four-square theorem</a>, <span
-class="math inline">n=a^2+b^2+c^2+d^2</span> for integer <span
-class="math inline">a,b,c,d</span>. <span class="math inline">\sqrt{n} =
-\sqrt{a^2+b^2+c^2+d^2}</span>. Thus <span
-class="math inline">\sqrt{n}</span> is the magnitude of the vector <span
-class="math inline">[a,b,c,d]</span>. <span
-class="math inline">a,b,c,d</span> can be calculated by brute force
-search(therefore runs in <span class="math inline">O(n^2)</span>
-time).</p>
-<p>Note a simple improvement of the naive algorithm can reduce the
-computation time to <span class="math inline">O(n^\frac{3}{2} \log
-n)</span> by doing a binary search for the last square.</p>
-<p><a
-href="http://onlinelibrary.wiley.com/doi/10.1002/cpa.3160390713/abstract">A
-much smarter randomized algorithm</a> by Michael O. Rabin and Jeffrey
-Shallit have a running time of <span class="math inline">O(\log^2
-n)</span>.</p>
-<p>A recursive algorithm using the following relation can find the
-magnitude of any vector(assume <span class="math inline">a_i\neq
-0</span>) <span class="math inline">|[a_0,...,a_{n-1},a_n]| =
-\frac{a_n}{\sin(\tan^{-1}(\frac{a_n}{|[a_0,...,a_{n-1}]|}))}</span> It’s
-easy to see, this breaks a <span class="math inline">n</span>-dimension
-vector into orthogonal vectors of <span
-class="math inline">n-1</span>-dimensions and <span
-class="math inline">1</span>-dimension. We get a right triangle.
-Trigonometry comes in handy.</p></div>
+<div><p>Moved into a new home, I noticed the shower curtain always gets
+sucked onto my body while showering, which is quite annoying.</p>
+<p>After some research, I found that this phenomenon, known as the <a
+href="https://en.wikipedia.org/wiki/Shower-curtain_effect">Shower
+Curtain Effect</a>, has been studied before. Although there’s no
+definitive conclusion, a few plausible explanations exist:</p>
+<p><strong>Buoyancy Hypothesis</strong></p>
+<p>When showering, hot water heats the air, causing it to rise. Cooler
+air near the floor then gets pushed in from under the curtain to replace
+the rising air. This hypothesis seems plausible since the phenomenon is
+often more noticeable when taking hot showers on cold days.</p>
+<p><strong>Bernoulli Effect Hypothesis</strong></p>
+<p>An increase in speed leads to a decrease in pressure. The water
+flowing from the shower head causes the surrounding air to flow in the
+same direction, parallel to the shower curtain. This parallel movement
+reduces the air pressure inside the curtain, creating a pressure
+difference between the inside and outside, causing the curtain to move
+inward.</p>
+<p>The solution is simple: use hooks to secure the bottom of the curtain
+or weigh it down.</p></div>
 <div class="hide-on-print">
     <div class="info">
         Posted by <a href="https://aarkai.github.io">Kai Wang</a> on
-        <time datetime="2024-06-09">2024-06-09</time>.
+        <time datetime="2024-07-13">2024-07-13</time>.
     </div>
-    <div class="info">Tags: math.</div>
+    <div class="info">Tags: writing life.</div>
 </div>
 ]]></description>
-    <pubDate>Sun, 09 Jun 2024 00:00:00 UT</pubDate>
-    <guid>https://aaarkai.github.io/posts/2024-06-09-testing.html</guid>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 UT</pubDate>
+    <guid>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</guid>
     <dc:creator>Kai Wang</dc:creator>
 </item>
 
