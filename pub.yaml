@@ -15,8 +15,10 @@ people:
 types:
   journal: Journal Publications
   conference: Conference Publications
+  presentation: Presentations
   manuscript: <span>Manuscripts<br /><span style="font-size:0.6em"><em>Some manuscripts are available upon request.</em></span></span>
   thesis: Thesis
+
 # id: the unique identifier
 # title: title of the article
 # authors: a list of authors
@@ -28,6 +30,18 @@ types:
 # notes: a list of notes
 # dedication: a dedication, appends to the abstract
 # abstract: the abstract of the paper
+
+---
+id: llm_2024_h1
+title: LLM 2024 H1 Rewind
+type: presentation
+show: [p]
+year: 2024
+authors: [Kai Wang]
+selected: true
+abstract: >
+  For the first half of 2024, I have summarized and detailed the technologies used in various large language models (LLMs).
+
 
 # For conferences and journals, the default bib line is
 # pub + year
