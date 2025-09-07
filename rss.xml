@@ -7,7 +7,43 @@
         <description><![CDATA[Live, Learn, Create]]></description>
         <atom:link href="https://aaarkai.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Unknown</lastBuildDate>
-        
+        <lastBuildDate>Sat, 13 Jul 2024 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>Shower-curtain effect</title>
+    <link>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</link>
+    <description><![CDATA[<br />
+<div><p>Moved into a new home, I noticed the shower curtain always gets
+sucked onto my body while showering, which is quite annoying.</p>
+<p>After some research, I found that this phenomenon, known as the <a
+href="https://en.wikipedia.org/wiki/Shower-curtain_effect">Shower
+Curtain Effect</a>, has been studied before. Although there’s no
+definitive conclusion, a few plausible explanations exist:</p>
+<p><strong>Buoyancy Hypothesis</strong></p>
+<p>When showering, hot water heats the air, causing it to rise. Cooler
+air near the floor then gets pushed in from under the curtain to replace
+the rising air. This hypothesis seems plausible since the phenomenon is
+often more noticeable when taking hot showers on cold days.</p>
+<p><strong>Bernoulli Effect Hypothesis</strong></p>
+<p>An increase in speed leads to a decrease in pressure. The water
+flowing from the shower head causes the surrounding air to flow in the
+same direction, parallel to the shower curtain. This parallel movement
+reduces the air pressure inside the curtain, creating a pressure
+difference between the inside and outside, causing the curtain to move
+inward.</p>
+<p>The solution is simple: use hooks to secure the bottom of the curtain
+or weigh it down.</p></div>
+<div class="hide-on-print">
+    <div class="info">
+        Posted by <a href="https://aarkai.github.io">Kai Wang</a> on
+        <time datetime="2024-07-13">2024-07-13</time>.
+    </div>
+    <div class="info">Tags: writing life.</div>
+</div>
+]]></description>
+    <pubDate>Sat, 13 Jul 2024 00:00:00 UT</pubDate>
+    <guid>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</guid>
+    <dc:creator>Kai Wang</dc:creator>
+</item>
+
     </channel>
 </rss>
