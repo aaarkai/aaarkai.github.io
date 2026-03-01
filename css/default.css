@@ -15,5 +15,7 @@ sup, sub { font-size: 0.75em; }
 sup { vertical-align: super; }
 sub { vertical-align: sub; }
 h3 code { text-transform: none; }
+p { margin: 0; line-height: 1.4em; }
+ul, ol { padding: 0; }
 img { max-width: 100%; height: auto; margin: auto; }
 rt { color: #777; }
