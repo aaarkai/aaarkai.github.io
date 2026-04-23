@@ -42,6 +42,18 @@ selected: true
 abstract: >
   For the first half of 2024, I have summarized and detailed the technologies used in various large language models (LLMs).
 
+---
+id: agentic_coding_2026
+title: Agentic Coding
+type: presentation
+show: [p]
+year: 2026
+authors: [Kai Wang]
+selected: true
+presentation_url: https://aaarkai.github.io/agentic_coding_talk/
+abstract: >
+  Introduce agentic coding for internal team, include harness engineering, plan mode and code mode.
+
 
 # For conferences and journals, the default bib line is
 # pub + year

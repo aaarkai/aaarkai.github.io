@@ -43,6 +43,9 @@
       var x = document.getElementsByClassName("cv-non-selected");
       for (var i = x.length - 1; i >= 0; --i)
         x[i].classList.remove("cv-non-selected");
+      x = document.getElementsByClassName("abstract-guard");
+      for (var j = x.length - 1; j >= 0; --j)
+        x[j].checked = true;
       x = document.getElementById("pub-toggle");
       x.style.display = "none";
     }
@@ -183,7 +186,7 @@
       {% endif %}
 
       {% if 'p' in paper.show %}
-        <a class="entry-action" href="files/presentations/{{paper.id}}.pdf" aria-label="Open presentation">
+        <a class="entry-action" href="{{paper.presentation_url|default('files/presentations/' ~ paper.id ~ '.pdf')}}" aria-label="Open presentation">
           <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
         </a>
       {% else %}
