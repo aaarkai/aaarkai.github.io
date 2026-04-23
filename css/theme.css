@@ -18,7 +18,7 @@
   --code-bg: #f3f4f6;
 
   --content-width: 68ch;
-  --lh-body: 1.72;
+  --lh-body: 1.8;
   --lh-heading: 1.25;
   --p-gap: 0.95rem;
 }
@@ -26,12 +26,12 @@
 /* Base */
 html { font-size: clamp(15px, 1.6vw, 18px); }
 body {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.7;
+  line-height: var(--lh-body);
   width: auto !important;
 }
 
@@ -103,6 +103,7 @@ nav ul li a:hover {
 #article-title {
   font-size: 1.65rem;
   font-weight: 600;
+  font-family: var(--font-serif);
   line-height: var(--lh-heading);
   border-bottom: 1px solid var(--line);
   margin-bottom: 0.5rem;
@@ -111,6 +112,7 @@ nav ul li a:hover {
 
 /* Typography */
 h1, h2, h3 {
+  font-family: var(--font-serif);
   line-height: var(--lh-heading);
   margin: 1.6rem 0 0.75rem;
   font-weight: 600;

@@ -48,83 +48,149 @@
     }
   </script>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;500;600;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
   <link rel="stylesheet" href="/css/default.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/homepage.css?v=20220803" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/visual-language.css?v=20260423" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/homepage.css?v=20260423" crossorigin="anonymous">
 
 </head>
-<body>
-<div class="container">
+<body class="home-page">
+<div class="page-shell">
+  <div class="ornament-layer ornament-preset-home-rich page-ornament-layer" aria-hidden="true">
+    <svg class="ornament ornament--ink page-ornament page-ornament--left-grid science-ornament"><use href="/files/theme/sprite.svg#corner-grid"></use></svg>
+    <svg class="ornament ornament--warm page-ornament page-ornament--top-arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+    <svg class="ornament ornament--fog page-ornament page-ornament--top-disc science-ornament"><use href="/files/theme/sprite.svg#soft-disc"></use></svg>
+    <svg class="ornament ornament--accent page-ornament page-ornament--bottom-right-grid science-ornament"><use href="/files/theme/sprite.svg#corner-grid"></use></svg>
+    <svg class="ornament ornament--warm page-ornament page-ornament--bottom-right-arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+  </div>
 
-<div class="person" itemscope="" itemtype="http://schema.org/Person">
+<main class="container">
+
+<section class="hero-section person" itemscope="" itemtype="http://schema.org/Person">
     <meta itemprop="gender" content="Male">
     <meta itemprop="birthDate" content="January 05, 1995">
     <meta itemprop="honorificPrefix" content="Dr">
     <meta itemprop="honorificSuffix" content="PhD">
     <meta itemprop="url" content="https://aaarkai.github.io">
-<div class="row" style="display:block"><h1 id="site-title"><span itemprop="givenName">Kai</span> <span itemprop="familyName">Wang</span> <wbr>|<wbr> <ruby>
-<rb>汪</rb><rp>(</rp><rt>wāng</rt><rp>)</rp></ruby>
-<ruby><rb>恺</rb><rp>(</rp><rt>kǎi</rt><rp>)</rp></ruby>
-</h1></div>
+    <header class="hero-section__heading">
+      <h1 id="site-title">
+        <span class="site-title__latin"><span itemprop="givenName">Kai</span> <span itemprop="familyName">Wang</span></span>
+        <span class="site-title__divider" aria-hidden="true"></span>
+        <span class="site-title__hanzi">
+          <ruby><rb>汪</rb><rp>(</rp><rt>wāng</rt><rp>)</rp></ruby>
+          <ruby><rb>恺</rb><rp>(</rp><rt>kǎi</rt><rp>)</rp></ruby>
+        </span>
+      </h1>
+    </header>
 
-<div class="row">
+<div class="row hero-grid">
   <div class="intro-left" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
     <meta itemprop="representativeOfPage" content="True">
-    <img width="270" height="270" src="./files/kai/kai_profile.jpeg" style="border-radius:50%;max-width:95%" title="Photo of Kai Wang" alt="Photo of Kai Wang" itemprop="contentUrl"/>
+    <div class="portrait-stage">
+      <div class="ornament-layer ornament-preset-home-rich portrait-ornament-layer" aria-hidden="true">
+        <svg class="ornament ornament--accent portrait-ornament portrait-ornament--orbit science-ornament"><use href="/files/theme/sprite.svg#orbit-ring"></use></svg>
+        <svg class="ornament ornament--warm portrait-ornament portrait-ornament--arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+        <svg class="ornament ornament--accent portrait-ornament portrait-ornament--dots science-ornament"><use href="/files/theme/sprite.svg#dot-matrix"></use></svg>
+        <svg class="ornament ornament--warm portrait-ornament portrait-ornament--marker science-ornament"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+      </div>
+      <div class="portrait-shell">
+        <img class="portrait-image" width="270" height="270" src="./files/kai/kai_profile.jpeg" title="Photo of Kai Wang" alt="Photo of Kai Wang" itemprop="contentUrl"/>
+      </div>
+    </div>
   </div>
   <div class="intro-right">
-    <p>
-      I'm a Software Engineer at <a href="https://www.t-head.cn/">T-Head Alibaba</a>, a member of the Algorithm and Framework Group</a>.
-    </p>
-    <p>
-      I earned my Bachelor’s degree in Computational Information Science from Dalian University of Technology, followed by a Ph.D. in Acoustics from the Institute of Acoustics at the Chinese Academy of Sciences.
-    </p>
-    <p>
-      My research interests are <span itemprop="knowsAbout">algorithms</span>, <span itemprop="knowsAbout">Physics</span> and <span itemprop="knowsAbout">GPGPU</span>. I'm also interested in more applied problems with nice theoretical components.
-      Here is my <a href="files/cv.pdf">CV</a><!--(<a href="files/cv_chinese.pdf">chinese version</a>)-->.
-    </p>
+    <div class="intro-copy">
+      <p>
+        I’m a Software Engineer at <a href="https://www.t-head.cn/">T-Head Alibaba</a>, a member of the Algorithm and Framework Group.
+      </p>
+      <p>
+        I earned my Bachelor’s degree in Computational Information Science from Dalian University of Technology, followed by a Ph.D. in Acoustics from the Institute of Acoustics at the Chinese Academy of Sciences.
+      </p>
+      <p>
+        My research interests are <span itemprop="knowsAbout">algorithms</span>, <span itemprop="knowsAbout">Physics</span> and <span itemprop="knowsAbout">GPGPU</span>. I’m also interested in more applied problems with nice theoretical components.
+        Here is my <a href="files/cv.pdf">CV</a><!--(<a href="files/cv_chinese.pdf">chinese version</a>)-->.
+      </p>
 
-    <p>I maintain a <a href="https://github.com/aaarkai/">github account</a>, a <a href="blog.html"><strong>blog</strong></a> and a Twitter (named X now) <a rel="me" href="https://x.com/aaarkk">@aaarkk</a>. You can get my running records from this <a rel="running" href="https://aaarkai.github.io/running_page">Running Page</a>. </p>
+      <p>I maintain a <a href="https://github.com/aaarkai/">github account</a>, a <a href="blog.html"><strong>blog</strong></a> and a Twitter (named X now) <a rel="me" href="https://x.com/aaarkk">@aaarkk</a>. You can get my running records from this <a rel="running" href="https://aaarkai.github.io/running_page">Running Page</a>.</p>
 
-    <p>You can contact me through email <a href="mailto:karel.wang@gmail.com"><samp itemprop="email">karel.wang@gmail.com</samp></a>.</p>
+      <p>You can contact me through email <a href="mailto:karel.wang@gmail.com"><samp itemprop="email">karel.wang@gmail.com</samp></a>.</p>
 
-    <div class="alert notice">We're <a href="/pages/recruiting.html">hiring experienced engineers in AI hardware and software.</a>. Please email if you are interested.</div>
-    <p><a href="cnblog.html"><strong>中文博客</strong></a>。</p>
-
+      <div class="alert notice">
+        <span class="notice__icon" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#notice-icon"></use></svg>
+        </span>
+        <div class="notice__body">We’re <a href="/pages/recruiting.html">hiring experienced engineers in AI hardware and software.</a> Please email if you are interested.</div>
+      </div>
+      <p><a href="cnblog.html"><strong>中文博客</strong></a>。</p>
+    </div>
   </div>
 </div>
-</div>
+</section>
 
 
-<div class="row pubtypeheader" id="pub-toggle">
-  <span>Selected Publications<br /><span style="font-size:0.6em" onclick="togglePublication()"><em><a>See all publications.</a></em></span></span>
+<section class="publications-section">
+  <div class="ornament-layer ornament-preset-reading-quiet publication-ornament-layer" aria-hidden="true">
+    <svg class="ornament ornament--accent publication-ornament publication-ornament--dots science-ornament"><use href="/files/theme/sprite.svg#dot-matrix"></use></svg>
+    <svg class="ornament ornament--warm publication-ornament publication-ornament--arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+  </div>
+
+<div class="row section-heading" id="pub-toggle">
+  <div class="section-heading__text">
+    <div class="section-heading__title">Selected Publications</div>
+    <div class="section-heading__line">
+      <span class="section-heading__marker" aria-hidden="true">
+        <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+      </span>
+      <span>Academic work and talks</span>
+    </div>
+  </div>
+  <button class="section-heading__link" type="button" onclick="togglePublication()">See all publications <span aria-hidden="true">→</span></button>
 </div>
 
 {% for pub_type in pub_types %}
-<div class="cv-non-selected row pubtypeheader">{{pub_type.title}}</div>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span>{{pub_type.title}}</span>
+</div>
   {% for paper in pub_type.papers %}
-  <!-- {{paper.title}}  -->
-  <div class="{{paper.selected}} row cv-entry" id="{{paper.id}}">
+  <article class="{{paper.selected}} row cv-entry" id="{{paper.id}}">
     <input type="checkbox" class="abstract-guard" id="{{paper.id}}-toggle">
     <div class="cv-left">
       {% if 'a' in paper.show %}
-        <label class="showmore material-icons" for="{{paper.id}}-toggle"></label>
+        <label class="showmore entry-toggle" for="{{paper.id}}-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
       {% else %}
-        <i class="material-icons disabled">expand_more</i>
+        <span class="entry-toggle is-disabled" aria-hidden="true">
+          <svg class="science-icon icon--toggle"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+        </span>
       {% endif %}
 
       {% if 'd' in paper.show %}
-        <a href="files/papers/{{paper.id}}.pdf"><i class="material-icons">description</i></a>
+        <a class="entry-action" href="files/papers/{{paper.id}}.pdf" aria-label="Open paper PDF">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </a>
       {% else %}
-        <i class="material-icons disabled">description</i>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </span>
       {% endif %}
 
       {% if 'p' in paper.show %}
-        <a href="files/presentations/{{paper.id}}.pdf"><i class="material-icons">airplay</i></a>
+        <a class="entry-action" href="files/presentations/{{paper.id}}.pdf" aria-label="Open presentation">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </a>
       {% else %}
-        <i class="material-icons disabled">airplay</i>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </span>
       {% endif %}
     </div>
 
@@ -136,7 +202,7 @@
             {% if author.link %}<a href="{{author.link}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</li>{% endfor %}</ul>
       {% endif %}
 
-      <p><em>
+      <p class="publication-meta"><em>
       {% if paper.bib %}
         {{paper.bib}}
       {% elif paper.pub %}
@@ -148,7 +214,7 @@
       {% else %}
         <time>{{paper.year}}</time>.
       {% endif %}
-      </em><p>
+      </em></p>
 
       {% for note in paper.notes %}
         <aside class="cv-non-selected note">{{note}}</aside>
@@ -164,11 +230,12 @@
     </div>
     {% endif %}
 
-  </div>
+  </article>
   {% endfor %}
 {% endfor %}
 
-
+</section>
+</main>
 </div>
 </body>
 </html>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Reusable pattern elements sheet</title>
+  <desc id="desc">Reference sheet of reusable scientific ornament patterns on a plain background.</desc>
+  <rect width="1600" height="1200" fill="#fbf8f1"/>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#1f2a44">
+    <text x="42" y="48" font-size="24" font-weight="700" letter-spacing="4">REUSABLE ELEMENT PATTERNS</text>
+    <text x="42" y="90" font-size="18" font-weight="600" letter-spacing="3">CIRCLES &amp; ORBITS</text>
+    <text x="42" y="286" font-size="18" font-weight="600" letter-spacing="3">DOT GRIDS</text>
+    <text x="42" y="492" font-size="18" font-weight="600" letter-spacing="3">LINES &amp; CROSSHAIRS</text>
+    <text x="42" y="690" font-size="18" font-weight="600" letter-spacing="3">CONNECTORS &amp; ARCS</text>
+    <text x="42" y="888" font-size="18" font-weight="600" letter-spacing="3">SQUARES &amp; MARKERS</text>
+    <text x="870" y="90" font-size="18" font-weight="600" letter-spacing="3">GRID LINES</text>
+    <text x="870" y="286" font-size="18" font-weight="600" letter-spacing="3">NUMERIC MARKS</text>
+    <text x="870" y="492" font-size="18" font-weight="600" letter-spacing="3">CLUSTERS</text>
+    <text x="870" y="690" font-size="18" font-weight="600" letter-spacing="3">UI CALL OUT</text>
+    <text x="870" y="888" font-size="18" font-weight="600" letter-spacing="3">QUIET DIVIDER</text>
+  </g>
+
+  <g opacity="0.12" stroke="#8fa1b7">
+    <path d="M42 108h1516"/>
+    <path d="M42 304h1516"/>
+    <path d="M42 510h1516"/>
+    <path d="M42 708h1516"/>
+    <path d="M42 906h1516"/>
+  </g>
+
+  <g transform="translate(130 120)">
+    <circle cx="80" cy="80" r="56" fill="none" stroke="#8fa1b7" stroke-width="1.2"/>
+    <circle cx="80" cy="80" r="39" fill="none" stroke="#d7dfeb" stroke-width="1.2"/>
+    <circle cx="80" cy="80" r="4" fill="#1f2a44"/>
+    <circle cx="37" cy="48" r="3" fill="#1f2a44"/>
+    <circle cx="116" cy="86" r="3" fill="#e07a3f"/>
+    <rect x="106" y="64" width="10" height="10" fill="#8fa1b7"/>
+  </g>
+  <g transform="translate(344 118)">
+    <circle cx="72" cy="82" r="44" fill="#d7dfeb" opacity="0.72"/>
+    <circle cx="110" cy="96" r="44" fill="#f4d8c8" opacity="0.8"/>
+    <circle cx="146" cy="74" r="44" fill="none" stroke="#e7b99e" stroke-width="1.1"/>
+  </g>
+  <g transform="translate(548 120)" fill="none" stroke-width="1.2" stroke-linecap="round">
+    <circle cx="82" cy="80" r="54" stroke="#d7dfeb"/>
+    <circle cx="82" cy="80" r="34" stroke="#8fa1b7"/>
+    <path d="M82 16v22" stroke="#1f2a44"/>
+    <path d="M82 122v22" stroke="#1f2a44"/>
+    <path d="M18 80h22" stroke="#3b6eeb"/>
+    <path d="M124 80h22" stroke="#3b6eeb"/>
+    <rect x="74" y="72" width="16" height="16" fill="#8fa1b7" stroke="none"/>
+  </g>
+  <g transform="translate(736 126)" fill="none" stroke-linecap="round" stroke-width="1.2">
+    <path d="M26 126C58 42 112 22 170 30" stroke="#8fa1b7"/>
+    <path d="M42 140C76 76 120 58 154 58" stroke="#e7b99e" stroke-dasharray="5 6"/>
+    <circle cx="26" cy="126" r="4" fill="#1f2a44" stroke="none"/>
+    <circle cx="170" cy="30" r="4" fill="#e07a3f" stroke="none"/>
+  </g>
+
+  <g fill="#3b6eeb" opacity="0.55" transform="translate(126 330)">
+    <circle cx="0" cy="0" r="2"/><circle cx="20" cy="0" r="2"/><circle cx="40" cy="0" r="2"/><circle cx="60" cy="0" r="2"/><circle cx="80" cy="0" r="2"/>
+    <circle cx="0" cy="20" r="2"/><circle cx="20" cy="20" r="2"/><circle cx="40" cy="20" r="2"/><circle cx="60" cy="20" r="2"/><circle cx="80" cy="20" r="2"/>
+    <circle cx="0" cy="40" r="2"/><circle cx="20" cy="40" r="2"/><circle cx="40" cy="40" r="2"/><circle cx="60" cy="40" r="2"/><circle cx="80" cy="40" r="2"/>
+    <circle cx="0" cy="60" r="2"/><circle cx="20" cy="60" r="2"/><circle cx="40" cy="60" r="2"/><circle cx="60" cy="60" r="2"/><circle cx="80" cy="60" r="2"/>
+  </g>
+  <g fill="#8fa1b7" opacity="0.48" transform="translate(356 330)">
+    <circle cx="0" cy="0" r="1.8"/><circle cx="20" cy="0" r="1.8"/><circle cx="40" cy="0" r="1.8"/><circle cx="60" cy="0" r="1.8"/><circle cx="80" cy="0" r="1.8"/>
+    <circle cx="0" cy="20" r="1.8"/><circle cx="20" cy="20" r="1.8"/><circle cx="40" cy="20" r="1.8"/><circle cx="60" cy="20" r="1.8"/><circle cx="80" cy="20" r="1.8"/>
+    <circle cx="0" cy="40" r="1.8"/><circle cx="20" cy="40" r="1.8"/><circle cx="40" cy="40" r="1.8"/><circle cx="60" cy="40" r="1.8"/><circle cx="80" cy="40" r="1.8"/>
+    <circle cx="0" cy="60" r="1.8"/><circle cx="20" cy="60" r="1.8"/><circle cx="40" cy="60" r="1.8"/><circle cx="60" cy="60" r="1.8"/><circle cx="80" cy="60" r="1.8"/>
+  </g>
+  <g fill="#1f2a44" opacity="0.66" transform="translate(592 330)">
+    <circle cx="0" cy="0" r="1.8"/><circle cx="24" cy="0" r="1.8"/><circle cx="48" cy="0" r="1.8"/><circle cx="72" cy="0" r="1.8"/>
+    <circle cx="0" cy="24" r="1.8"/><circle cx="24" cy="24" r="1.8"/><circle cx="48" cy="24" r="1.8"/><circle cx="72" cy="24" r="1.8"/>
+    <circle cx="0" cy="48" r="1.8"/><circle cx="24" cy="48" r="1.8"/><circle cx="48" cy="48" r="1.8"/><circle cx="72" cy="48" r="1.8"/>
+    <circle cx="0" cy="72" r="1.8"/><circle cx="24" cy="72" r="1.8"/><circle cx="48" cy="72" r="1.8"/><circle cx="72" cy="72" r="1.8"/>
+  </g>
+  <g transform="translate(770 330)">
+    <circle cx="0" cy="0" r="2.2" fill="#1f2a44"/><circle cx="26" cy="0" r="2.2" fill="#3b6eeb"/><circle cx="52" cy="0" r="2.2" fill="#8fa1b7"/><circle cx="78" cy="0" r="2.2" fill="#e07a3f"/>
+    <circle cx="0" cy="28" r="2.2" fill="#8fa1b7"/><circle cx="26" cy="28" r="2.2" fill="#1f2a44"/><circle cx="52" cy="28" r="2.2" fill="#3b6eeb"/><circle cx="78" cy="28" r="2.2" fill="#e07a3f"/>
+  </g>
+
+  <g transform="translate(112 536)" fill="none" stroke-linecap="round" stroke-width="1.2">
+    <path d="M0 54h88" stroke="#d7dfeb"/>
+    <path d="M44 10v88" stroke="#d7dfeb"/>
+    <path d="M16 54h56" stroke="#8fa1b7"/>
+    <path d="M44 26v56" stroke="#8fa1b7"/>
+    <circle cx="44" cy="54" r="4" fill="#e07a3f" stroke="none"/>
+  </g>
+  <g transform="translate(292 536)" fill="none" stroke-linecap="round" stroke-width="1.2">
+    <path d="M44 10v88" stroke="#d7dfeb"/>
+    <path d="M0 66h88" stroke="#d7dfeb"/>
+    <path d="M44 28v56" stroke="#1f2a44"/>
+    <path d="M28 52h36" stroke="#3b6eeb"/>
+    <circle cx="44" cy="66" r="4" fill="#1f2a44" stroke="none"/>
+  </g>
+
+  <g transform="translate(120 730)" fill="none" stroke-linecap="round" stroke-width="1.2">
+    <path d="M0 100C44 42 100 18 170 18" stroke="#8fa1b7"/>
+    <path d="M22 118C66 74 112 54 156 54" stroke="#e7b99e" stroke-dasharray="5 6"/>
+    <circle cx="0" cy="100" r="4" fill="#1f2a44" stroke="none"/>
+    <circle cx="170" cy="18" r="4" fill="#1f2a44" stroke="none"/>
+    <circle cx="156" cy="54" r="3" fill="#e07a3f" stroke="none"/>
+  </g>
+
+  <g transform="translate(900 130)" fill="none" stroke-linecap="round" stroke-width="1.05">
+    <path d="M0 42h170" stroke="#d7dfeb"/>
+    <path d="M22 20v60" stroke="#e6ebf2"/>
+    <path d="M60 8v78" stroke="#e6ebf2"/>
+    <path d="M96 28h90" stroke="#8fa1b7"/>
+    <path d="M112 0v90" stroke="#e6ebf2"/>
+    <path d="M142 18v84" stroke="#d7dfeb"/>
+    <rect x="164" y="58" width="12" height="12" fill="#8fa1b7" stroke="none"/>
+  </g>
+
+  <g transform="translate(940 332)" font-family="Inter, Arial, sans-serif" font-size="28" fill="#8fa1b7">
+    <text x="0" y="0">0</text><text x="40" y="0">1</text><text x="80" y="0">2</text><text x="120" y="0">3</text>
+    <text x="160" y="0">4</text><text x="200" y="0">5</text><text x="240" y="0">6</text><text x="280" y="0">7</text>
+    <text x="320" y="0">8</text>
+    <text x="0" y="52">0</text><text x="40" y="52">1</text><text x="80" y="52">2</text><text x="120" y="52">3</text>
+    <text x="160" y="52" fill="#3b6eeb">4</text><text x="200" y="52" fill="#e07a3f">5</text>
+    <text x="240" y="52">6</text><text x="280" y="52">7</text><text x="320" y="52">8</text>
+  </g>
+
+  <g transform="translate(930 530)">
+    <circle cx="0" cy="0" r="2" fill="#8fa1b7"/><circle cx="22" cy="0" r="2" fill="#8fa1b7"/><circle cx="44" cy="0" r="2" fill="#e07a3f"/>
+    <circle cx="66" cy="0" r="2" fill="#1f2a44"/><circle cx="88" cy="0" r="2" fill="#8fa1b7"/>
+    <circle cx="22" cy="22" r="2" fill="#3b6eeb"/><circle cx="56" cy="22" r="5" fill="#e07a3f"/>
+    <rect x="104" y="8" width="12" height="12" fill="#1f2a44"/>
+    <rect x="134" y="2" width="8" height="8" fill="#8fa1b7"/>
+  </g>
+
+  <g transform="translate(900 736)">
+    <rect x="0" y="0" width="410" height="120" rx="18" fill="#f3f6fb" stroke="#d7dfeb"/>
+    <circle cx="48" cy="54" r="18" fill="none" stroke="#8fa1b7"/>
+    <path d="M40 54l14-8v20l-14-6" fill="none" stroke="#3b6eeb" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="90" y="50" font-family="Source Serif 4, Georgia, serif" font-size="24" fill="#1f2a44">We’re hiring experienced engineers in</text>
+    <text x="90" y="88" font-family="Source Serif 4, Georgia, serif" font-size="24" fill="#3b6eeb">AI hardware and software.</text>
+  </g>
+
+  <g transform="translate(920 936)" fill="none" stroke-linecap="round" stroke-width="1.15">
+    <path d="M0 20h126" stroke="#8fa1b7"/>
+    <path d="M162 20h126" stroke="#d7dfeb"/>
+    <circle cx="144" cy="20" r="4" fill="#3b6eeb" stroke="none"/>
+    <path d="M0 58h288" stroke="#d7dfeb" stroke-dasharray="2 8"/>
+  </g>
+</svg>

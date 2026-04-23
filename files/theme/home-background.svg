@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
+  <title id="title">Home page background</title>
+  <desc id="desc">Warm off-white academic background with sparse scientific ornaments placed asymmetrically in the margins.</desc>
+  <rect width="1600" height="2200" fill="#f7f3ea"/>
+
+  <g opacity="0.24" stroke="#8fa1b7" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <path d="M80 170v200"/>
+    <path d="M80 250h82"/>
+    <path d="M80 330h150"/>
+    <path d="M230 210v120"/>
+    <path d="M150 330v116"/>
+    <path d="M150 446h76"/>
+  </g>
+  <g opacity="0.5" fill="#1f2a44">
+    <circle cx="80" cy="330" r="4"/>
+    <circle cx="150" cy="330" r="3.6"/>
+    <rect x="221" y="203" width="12" height="12"/>
+    <rect x="144" y="439" width="10" height="10"/>
+  </g>
+  <g opacity="0.22" fill="#8fa1b7">
+    <circle cx="72" cy="820" r="138"/>
+  </g>
+  <g opacity="0.26" stroke="#e07a3f" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <path d="M-80 645C80 660 190 730 238 930"/>
+    <path d="M112 240v470"/>
+    <path d="M72 445h80"/>
+  </g>
+  <g opacity="0.52" fill="#e07a3f">
+    <circle cx="112" cy="280" r="6"/>
+    <circle cx="152" cy="730" r="6"/>
+  </g>
+  <g opacity="0.26" fill="#1f2a44">
+    <circle cx="120" cy="550" r="4"/>
+    <circle cx="180" cy="610" r="2.6"/>
+    <rect x="120" y="720" width="12" height="12" fill="#1f2a44"/>
+  </g>
+  <g opacity="0.28" fill="#8fa1b7">
+    <circle cx="120" cy="470" r="1.5"/>
+    <circle cx="140" cy="470" r="1.5"/>
+    <circle cx="160" cy="470" r="1.5"/>
+    <circle cx="180" cy="470" r="1.5"/>
+    <circle cx="120" cy="490" r="1.5"/>
+    <circle cx="140" cy="490" r="1.5"/>
+    <circle cx="160" cy="490" r="1.5"/>
+    <circle cx="180" cy="490" r="1.5"/>
+    <circle cx="120" cy="510" r="1.5"/>
+    <circle cx="140" cy="510" r="1.5"/>
+    <circle cx="160" cy="510" r="1.5"/>
+    <circle cx="180" cy="510" r="1.5"/>
+  </g>
+
+  <g opacity="0.16" fill="#8fa1b7">
+    <circle cx="1515" cy="118" r="138"/>
+  </g>
+  <g opacity="0.28" stroke="#e07a3f" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <path d="M1280 -30C1445 -10 1565 42 1638 180"/>
+    <path d="M1328 28C1475 44 1562 92 1608 184"/>
+    <path d="M1374 88C1495 96 1568 134 1604 212"/>
+    <path d="M1548 -4v44"/>
+  </g>
+  <g opacity="0.22" stroke="#8fa1b7" stroke-width="1.1" fill="none" stroke-linecap="round">
+    <path d="M1318 102h160"/>
+    <path d="M1452 88v180"/>
+  </g>
+  <g opacity="0.42" fill="#3b6eeb">
+    <circle cx="1304" cy="76" r="2.3"/>
+    <circle cx="1330" cy="76" r="2.3"/>
+    <circle cx="1356" cy="76" r="2.3"/>
+    <circle cx="1304" cy="102" r="2.3"/>
+    <circle cx="1330" cy="102" r="2.3"/>
+    <circle cx="1356" cy="102" r="2.3"/>
+    <circle cx="1304" cy="128" r="2.3"/>
+    <circle cx="1330" cy="128" r="2.3"/>
+    <circle cx="1356" cy="128" r="2.3"/>
+  </g>
+  <g opacity="0.5" fill="#1f2a44">
+    <rect x="1470" y="130" width="14" height="14"/>
+  </g>
+  <g opacity="0.48" fill="#e07a3f">
+    <circle cx="1366" cy="180" r="5.5"/>
+  </g>
+
+  <g opacity="0.22" stroke="#8fa1b7" stroke-width="1.05" fill="none" stroke-linecap="round">
+    <path d="M1316 1624h176"/>
+    <path d="M1408 1544v188"/>
+    <path d="M1268 1668h84"/>
+    <path d="M1442 1602h94"/>
+  </g>
+  <g opacity="0.28" stroke="#e07a3f" stroke-width="1.15" fill="none" stroke-linecap="round">
+    <path d="M1266 1876C1334 1748 1452 1686 1620 1696"/>
+    <path d="M1306 1940C1362 1830 1460 1778 1584 1786"/>
+    <path d="M1340 1998C1388 1908 1468 1866 1560 1870"/>
+  </g>
+  <g opacity="0.4" fill="#3b6eeb">
+    <circle cx="1330" cy="1762" r="2.2"/>
+    <circle cx="1358" cy="1762" r="2.2"/>
+    <circle cx="1386" cy="1762" r="2.2"/>
+    <circle cx="1330" cy="1790" r="2.2"/>
+    <circle cx="1358" cy="1790" r="2.2"/>
+    <circle cx="1386" cy="1790" r="2.2"/>
+  </g>
+  <g opacity="0.5" fill="#1f2a44">
+    <circle cx="1280" cy="1740" r="4.2"/>
+    <rect x="1490" y="1840" width="12" height="12"/>
+  </g>
+</svg>

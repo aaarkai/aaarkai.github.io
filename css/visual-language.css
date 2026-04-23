@@ -1,0 +1,166 @@
+:root {
+  --vl-bg: #f7f3ea;
+  --vl-panel: rgba(255, 251, 245, 0.74);
+  --vl-panel-strong: rgba(255, 251, 245, 0.88);
+  --vl-ink: #1f2a44;
+  --vl-ink-soft: #4e5f79;
+  --vl-blue: #3b6eeb;
+  --vl-blue-muted: #8fa1b7;
+  --vl-fog: #e8edf2;
+  --vl-fog-strong: #d7dfeb;
+  --vl-orange: #e07a3f;
+  --vl-line: rgba(31, 42, 68, 0.12);
+  --vl-line-strong: rgba(31, 42, 68, 0.2);
+  --vl-shadow: 0 16px 48px rgba(31, 42, 68, 0.05);
+  --vl-shadow-soft: 0 10px 26px rgba(31, 42, 68, 0.035);
+
+  --font-heading: "Playfair Display", "Source Serif 4", Georgia, "Songti SC",
+    "Source Han Serif SC", "Noto Serif CJK SC", serif;
+  --font-body: "Inter", "SF Pro Text", "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  --font-serif-alt: "Source Serif 4", Georgia, "Times New Roman", "Songti SC",
+    "Source Han Serif SC", "Noto Serif CJK SC", serif;
+  --font-mono: "SFMono-Regular", Menlo, Consolas, Monaco, monospace;
+
+  --content-width-home: min(1240px, calc(100vw - 64px));
+  --radius-card: 18px;
+  --radius-soft: 28px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.home-page {
+  margin: 0;
+  width: auto !important;
+  min-height: 100vh;
+  color: var(--vl-ink);
+  background: var(--vl-bg);
+  font-family: var(--font-body);
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-page *,
+.home-page *::before,
+.home-page *::after {
+  box-sizing: border-box;
+}
+
+.home-page a {
+  color: var(--vl-blue);
+  text-decoration: none;
+  text-decoration-color: rgba(59, 110, 235, 0.32);
+  text-underline-offset: 0.18em;
+  transition:
+    color 180ms ease,
+    text-decoration-color 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.home-page a:hover,
+.home-page a:focus-visible {
+  color: var(--vl-ink);
+  text-decoration: underline;
+}
+
+.home-page strong {
+  font-weight: 600;
+}
+
+.home-page p {
+  margin: 0 0 1.2rem;
+}
+
+.home-page img,
+.home-page svg {
+  max-width: 100%;
+}
+
+.page-shell {
+  position: relative;
+  overflow-x: clip;
+}
+
+.ornament-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ornament-preset-home-rich {
+  --ornament-opacity: 0.32;
+  --ornament-ink-opacity: 0.22;
+  --ornament-accent-opacity: 0.34;
+  --ornament-fog-opacity: 0.09;
+  --ornament-numeric-opacity: 0.12;
+}
+
+.ornament-preset-reading-quiet {
+  --ornament-opacity: 0.2;
+  --ornament-ink-opacity: 0.14;
+  --ornament-accent-opacity: 0.2;
+  --ornament-fog-opacity: 0.05;
+  --ornament-numeric-opacity: 0.08;
+}
+
+.ornament {
+  position: absolute;
+  color: var(--vl-blue-muted);
+  opacity: var(--ornament-opacity, 0.6);
+}
+
+.ornament--ink {
+  color: var(--vl-ink);
+  opacity: var(--ornament-ink-opacity, 0.32);
+}
+
+.ornament--accent {
+  color: var(--vl-blue);
+  opacity: var(--ornament-accent-opacity, 0.72);
+}
+
+.ornament--warm {
+  color: var(--vl-orange);
+  opacity: calc(var(--ornament-accent-opacity, 0.72) * 0.85);
+}
+
+.ornament--fog {
+  color: var(--vl-blue-muted);
+  opacity: var(--ornament-fog-opacity, 0.18);
+}
+
+.ornament--numeric {
+  color: var(--vl-blue-muted);
+  opacity: var(--ornament-numeric-opacity, 0.28);
+}
+
+.science-ornament,
+.science-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.science-ornament use,
+.science-icon use {
+  vector-effect: non-scaling-stroke;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
