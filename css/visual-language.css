@@ -1,7 +1,7 @@
 :root {
-  --vl-bg: #f7f3ea;
-  --vl-panel: rgba(255, 251, 245, 0.74);
-  --vl-panel-strong: rgba(255, 251, 245, 0.88);
+  --vl-bg: #f7f6f3;
+  --vl-panel: rgba(255, 255, 252, 0.74);
+  --vl-panel-strong: rgba(255, 255, 252, 0.88);
   --vl-ink: #1f2a44;
   --vl-ink-soft: #4e5f79;
   --vl-blue: #3b6eeb;

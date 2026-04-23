@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
   <title id="title">Home page background</title>
   <desc id="desc">Warm off-white academic background with sparse scientific ornaments placed asymmetrically in the margins.</desc>
-  <rect width="1600" height="2200" fill="#f7f3ea"/>
+  <rect width="1600" height="2200" fill="#f7f6f3"/>
 
   <g opacity="0.24" stroke="#8fa1b7" stroke-width="1.2" fill="none" stroke-linecap="round">
     <path d="M80 170v200"/>
