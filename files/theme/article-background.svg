@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
+  <title id="title">Article page background</title>
+  <desc id="desc">Quiet reading-page background with very sparse scientific ornaments in the corners and margins.</desc>
+  <rect width="1600" height="2200" fill="#f7f6f3"/>
+
+  <g opacity="0.12" fill="#8fa1b7">
+    <circle cx="34" cy="1630" r="110"/>
+    <circle cx="1548" cy="134" r="116"/>
+  </g>
+
+  <g opacity="0.18" stroke="#e07a3f" stroke-width="1.1" fill="none" stroke-linecap="round">
+    <path d="M-64 1508C84 1524 170 1602 208 1730"/>
+    <path d="M1328 -28C1464 -16 1552 42 1608 150"/>
+    <path d="M1374 38C1490 48 1566 96 1604 176"/>
+  </g>
+
+  <g opacity="0.16" stroke="#8fa1b7" stroke-width="1.05" fill="none" stroke-linecap="round">
+    <path d="M84 1370v364"/>
+    <path d="M84 1514h116"/>
+    <path d="M124 1444h94"/>
+    <path d="M1416 74v210"/>
+    <path d="M1298 152h164"/>
+  </g>
+
+  <g opacity="0.3" fill="#3b6eeb">
+    <circle cx="96" cy="1406" r="2.2"/>
+    <circle cx="96" cy="1430" r="2.2"/>
+    <circle cx="120" cy="1406" r="2.2"/>
+    <circle cx="120" cy="1430" r="2.2"/>
+    <circle cx="1320" cy="94" r="2"/>
+    <circle cx="1346" cy="94" r="2"/>
+    <circle cx="1320" cy="120" r="2"/>
+    <circle cx="1346" cy="120" r="2"/>
+  </g>
+
+  <g opacity="0.34" fill="#1f2a44">
+    <rect x="1456" y="136" width="12" height="12"/>
+    <rect x="82" y="1648" width="10" height="10"/>
+  </g>
+
+  <g opacity="0.4" fill="#e07a3f">
+    <circle cx="122" cy="1554" r="5"/>
+    <circle cx="1368" cy="116" r="5"/>
+  </g>
+</svg>

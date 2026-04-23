@@ -39,61 +39,122 @@
       var x = document.getElementsByClassName("cv-non-selected");
       for (var i = x.length - 1; i >= 0; --i)
         x[i].classList.remove("cv-non-selected");
+      x = document.getElementsByClassName("abstract-guard");
+      for (var j = x.length - 1; j >= 0; --j)
+        x[j].checked = true;
       x = document.getElementById("pub-toggle");
       x.style.display = "none";
     }
   </script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;500;600;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="stylesheet" href="/css/default.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/homepage.css?v=20220803" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/visual-language.css?v=20260423" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/homepage.css?v=20260423" crossorigin="anonymous">
 </head>
-<body>
-<div class="container">
-<div class="person" itemscope="" itemtype="http://schema.org/Person">
+<body class="home-page">
+<div class="page-shell">
+  <div class="ornament-layer ornament-preset-home-rich page-ornament-layer" aria-hidden="true">
+    <svg class="ornament ornament--ink page-ornament page-ornament--left-grid science-ornament"><use href="/files/theme/sprite.svg#corner-grid"></use></svg>
+    <svg class="ornament ornament--warm page-ornament page-ornament--top-arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+    <svg class="ornament ornament--fog page-ornament page-ornament--top-disc science-ornament"><use href="/files/theme/sprite.svg#soft-disc"></use></svg>
+    <svg class="ornament ornament--accent page-ornament page-ornament--bottom-right-grid science-ornament"><use href="/files/theme/sprite.svg#corner-grid"></use></svg>
+    <svg class="ornament ornament--warm page-ornament page-ornament--bottom-right-arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+  </div>
+<main class="container">
+<section class="hero-section person" itemscope="" itemtype="http://schema.org/Person">
     <meta itemprop="gender" content="Male">
     <meta itemprop="birthDate" content="January 05, 1995">
     <meta itemprop="honorificPrefix" content="Dr">
     <meta itemprop="honorificSuffix" content="PhD">
     <meta itemprop="url" content="https://aaarkai.github.io">
-<div class="row" style="display:block"><h1 id="site-title"><span itemprop="givenName">Kai</span> <span itemprop="familyName">Wang</span> <wbr>|<wbr> <ruby>
-<rb>汪</rb><rp>(</rp><rt>wāng</rt><rp>)</rp></ruby>
-<ruby><rb>恺</rb><rp>(</rp><rt>kǎi</rt><rp>)</rp></ruby>
-</h1></div>
-<div class="row">
+    <header class="hero-section__heading">
+      <h1 id="site-title">
+        <span class="site-title__latin"><span itemprop="givenName">Kai</span> <span itemprop="familyName">Wang</span></span>
+        <span class="site-title__divider" aria-hidden="true"></span>
+        <span class="site-title__hanzi">
+          <ruby><rb>汪</rb><rp>(</rp><rt>wāng</rt><rp>)</rp></ruby>
+          <ruby><rb>恺</rb><rp>(</rp><rt>kǎi</rt><rp>)</rp></ruby>
+        </span>
+      </h1>
+    </header>
+<div class="row hero-grid">
   <div class="intro-left" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
     <meta itemprop="representativeOfPage" content="True">
-    <img width="270" height="270" src="./files/kai/kai_profile.jpeg" style="border-radius:50%;max-width:95%" title="Photo of Kai Wang" alt="Photo of Kai Wang" itemprop="contentUrl"/>
+    <div class="portrait-stage">
+      <div class="ornament-layer ornament-preset-home-rich portrait-ornament-layer" aria-hidden="true">
+        <svg class="ornament ornament--warm portrait-ornament portrait-ornament--arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+        <svg class="ornament ornament--accent portrait-ornament portrait-ornament--dots science-ornament"><use href="/files/theme/sprite.svg#dot-matrix"></use></svg>
+        <svg class="ornament ornament--warm portrait-ornament portrait-ornament--marker science-ornament"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+      </div>
+      <div class="portrait-shell">
+        <img class="portrait-image" width="270" height="270" src="./files/kai/kai_profile.jpeg" title="Photo of Kai Wang" alt="Photo of Kai Wang" itemprop="contentUrl"/>
+      </div>
+    </div>
   </div>
   <div class="intro-right">
-    <p>
-      I'm a Software Engineer at <a href="https://www.t-head.cn/">T-Head Alibaba</a>, a member of the Algorithm and Framework Group</a>.
-    </p>
-    <p>
-      I earned my Bachelor’s degree in Computational Information Science from Dalian University of Technology, followed by a Ph.D. in Acoustics from the Institute of Acoustics at the Chinese Academy of Sciences.
-    </p>
-    <p>
-      My research interests are <span itemprop="knowsAbout">algorithms</span>, <span itemprop="knowsAbout">Physics</span> and <span itemprop="knowsAbout">GPGPU</span>. I'm also interested in more applied problems with nice theoretical components.
-      Here is my <a href="files/cv.pdf">CV</a><!--(<a href="files/cv_chinese.pdf">chinese version</a>)-->.
-    </p>
-    <p>I maintain a <a href="https://github.com/aaarkai/">github account</a>, a <a href="blog.html"><strong>blog</strong></a> and a Twitter (named X now) <a rel="me" href="https://x.com/aaarkk">@aaarkk</a>. You can get my running records from this <a rel="running" href="https://aaarkai.github.io/running_page">Running Page</a>. </p>
-    <p>You can contact me through email <a href="mailto:karel.wang@gmail.com"><samp itemprop="email">karel.wang@gmail.com</samp></a>.</p>
-    <div class="alert notice">We're <a href="/pages/recruiting.html">hiring experienced engineers in AI hardware and software.</a>. Please email if you are interested.</div>
-    <p><a href="cnblog.html"><strong>中文博客</strong></a>。</p>
+    <div class="intro-copy">
+      <p>
+        I’m a Software Engineer at <a href="https://www.t-head.cn/">T-Head Alibaba</a>, a member of the Algorithm and Framework Group.
+      </p>
+      <p>
+        I earned my Bachelor’s degree in Computational Information Science from Dalian University of Technology, followed by a Ph.D. in Acoustics from the Institute of Acoustics at the Chinese Academy of Sciences.
+      </p>
+      <p>
+        My research interests are <span itemprop="knowsAbout">algorithms</span>, <span itemprop="knowsAbout">Physics</span> and <span itemprop="knowsAbout">GPGPU</span>. I’m also interested in more applied problems with nice theoretical components.
+        Here is my <a href="files/cv.pdf">CV</a><!--(<a href="files/cv_chinese.pdf">chinese version</a>)-->.
+      </p>
+      <p>I maintain a <a href="https://github.com/aaarkai/">github account</a>, a <a href="blog.html"><strong>blog</strong></a> and a Twitter (named X now) <a rel="me" href="https://x.com/aaarkk">@aaarkk</a>. You can get my running records from this <a rel="running" href="https://aaarkai.github.io/running_page">Running Page</a>.</p>
+      <p>You can contact me through email <a href="mailto:karel.wang@gmail.com"><samp itemprop="email">karel.wang@gmail.com</samp></a>.</p>
+      <div class="alert notice">
+        <span class="notice__icon" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#notice-icon"></use></svg>
+        </span>
+        <div class="notice__body">We’re <a href="/pages/recruiting.html">hiring experienced engineers in AI hardware and software.</a> Please email if you are interested.</div>
+      </div>
+      <p><a href="cnblog.html"><strong>中文博客</strong></a>。</p>
+    </div>
   </div>
 </div>
+</section>
+<section class="publications-section">
+  <div class="ornament-layer ornament-preset-reading-quiet publication-ornament-layer" aria-hidden="true">
+    <svg class="ornament ornament--accent publication-ornament publication-ornament--dots science-ornament"><use href="/files/theme/sprite.svg#dot-matrix"></use></svg>
+    <svg class="ornament ornament--warm publication-ornament publication-ornament--arc science-ornament"><use href="/files/theme/sprite.svg#arc-cluster"></use></svg>
+  </div>
+<div class="row section-heading" id="pub-toggle">
+  <div class="section-heading__text">
+    <div class="section-heading__title">Selected Publications</div>
+    <div class="section-heading__line">
+      <span class="section-heading__marker" aria-hidden="true">
+        <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+      </span>
+      <span>Academic work and talks</span>
+    </div>
+  </div>
+  <button class="section-heading__link" type="button" onclick="togglePublication()">See all publications <span aria-hidden="true">→</span></button>
 </div>
-<div class="row pubtypeheader" id="pub-toggle">
-  <span>Selected Publications<br /><span style="font-size:0.6em" onclick="togglePublication()"><em><a>See all publications.</a></em></span></span>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span>Journal Publications</span>
 </div>
-<div class="cv-non-selected row pubtypeheader">Journal Publications</div>
-  <!-- Passive ocean acoustic thermometry with machine learning  -->
-  <div class="cv-selected row cv-entry" id="poat_ml">
+  <article class="cv-selected row cv-entry" id="poat_ml">
     <input type="checkbox" class="abstract-guard" id="poat_ml-toggle">
     <div class="cv-left">
-        <label class="showmore material-icons" for="poat_ml-toggle"></label>
-        <a href="files/papers/poat_ml.pdf"><i class="material-icons">description</i></a>
-        <i class="material-icons disabled">airplay</i>
+        <label class="showmore entry-toggle" for="poat_ml-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
+        <a class="entry-action" href="files/papers/poat_ml.pdf" aria-label="Open paper PDF">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </a>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </span>
     </div>
     <div class="cv-right">
       <cite class="paper-title">Passive ocean acoustic thermometry with machine learning</cite>
@@ -104,21 +165,27 @@
             Xishan Yang</li><li>
             Bo Zhang</li><li>
             Yanjun Zhang</li></ul>
-      <p><em>
+      <p class="publication-meta"><em>
           Applied Acoustics <time>2021</time>.
-      </em><p>
+      </em></p>
     </div>
     <div class="abstract">
       <p>Passive ocean acoustic thermometry (POAT) needs long accumulation time to achieve high accuracy. This article provides a machine learning-based method, Random Forest, to obtain the averaged sound speed (AVSS). With supervised learning, the AVSS can be estimated from half an hour accumulated noise cross-correlation functions (NCFs). Based on the feature importance analysis, an empirical equation is proposed to briefly describe the relationships between the features. The results of estimations are compared among different methods to demonstrate the advantage of the machine learning-based approach.</p>
     </div>
-  </div>
-  <!-- Estimation of current speed from ocean ambient noise  -->
-  <div class="cv-non-selected row cv-entry" id="estimate_current">
+  </article>
+  <article class="cv-non-selected row cv-entry" id="estimate_current">
     <input type="checkbox" class="abstract-guard" id="estimate_current-toggle">
     <div class="cv-left">
-        <label class="showmore material-icons" for="estimate_current-toggle"></label>
-        <a href="files/papers/estimate_current.pdf"><i class="material-icons">description</i></a>
-        <i class="material-icons disabled">airplay</i>
+        <label class="showmore entry-toggle" for="estimate_current-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
+        <a class="entry-action" href="files/papers/estimate_current.pdf" aria-label="Open paper PDF">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </a>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </span>
     </div>
     <div class="cv-right">
       <cite class="paper-title">Estimation of current speed from ocean ambient noise</cite>
@@ -127,21 +194,27 @@
             <a href="https://aaarkai.github.io">Kai Wang</a></li><li>
             <a href="http://www.ioa.cas.cn/rcdw/zgjzyjsgw/202112/t20211214_6299862.html">Fenghua Li</a></li><li>
             Xishan Yang</li></ul>
-      <p><em>
+      <p class="publication-meta"><em>
           Journal of Applied Acoustics <time>2022</time>.
-      </em><p>
+      </em></p>
     </div>
     <div class="abstract">
       <p>For the observation of short-time ocean current, a method for estimating the velocity of ocean current using ambient noise is proposed in shallow water based on the passive acoustic tomography. The energy accumulation of noise cross-correlation functions can be increased by beamforming. The empirical Green''s functions between two horizontal arrays are extracted from the noise cross-correlation functions, and the time arrival structures of the empirical Green''s functions are used to invert the current velocity between arrays. By processing the experimental data, the empirical Green''s functions and current velocities are extracted for 2 hours, and the velocity variation of ocean current can be observed. The simulation demonstrates the feasibility of the method in this experimental environment, and the mismatch of depth and range is analyzed. Its effect is negligible.</p>
     </div>
-  </div>
-  <!-- Shallow water passive acoustic tomography using dictionary learning  -->
-  <div class="cv-non-selected row cv-entry" id="pat_dl">
+  </article>
+  <article class="cv-non-selected row cv-entry" id="pat_dl">
     <input type="checkbox" class="abstract-guard" id="pat_dl-toggle">
     <div class="cv-left">
-        <label class="showmore material-icons" for="pat_dl-toggle"></label>
-        <a href="files/papers/pat_dl.pdf"><i class="material-icons">description</i></a>
-        <i class="material-icons disabled">airplay</i>
+        <label class="showmore entry-toggle" for="pat_dl-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
+        <a class="entry-action" href="files/papers/pat_dl.pdf" aria-label="Open paper PDF">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </a>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </span>
     </div>
     <div class="cv-right">
       <cite class="paper-title">Shallow water passive acoustic tomography using dictionary learning</cite>
@@ -150,57 +223,117 @@
             <a href="https://aaarkai.github.io">Kai Wang</a></li><li>
             <a href="http://www.ioa.cas.cn/rcdw/zgjzyjsgw/202112/t20211214_6299862.html">Fenghua Li</a></li><li>
             Xishan Yang</li></ul>
-      <p><em>
+      <p class="publication-meta"><em>
           Technical Acoustics <time>2022</time>.
-      </em><p>
+      </em></p>
     </div>
     <div class="abstract">
       <p>A dictionary learning-based method for sound speed profile (SSP) inversion in shallow water is presented. The empirical Green's functions between two parallel horizontal arrays can be extracted from noise cross-correlation functions. The sound speed profiles are sparsely characterized by data-generated dictionary matrix, and they can be inverted by searching for sparse coefficients. This method is validated by experimental data in the South China Sea. Compared with the traditional empirical orthogonal function (EOF) methods, the inversion accuracy accuracy is reduced to 0.53 m·s-1, moreover this method has fewer search parameters and higher accuracy.</p>
     </div>
-  </div>
-<div class="cv-non-selected row pubtypeheader">Conference Publications</div>
-<div class="cv-non-selected row pubtypeheader">Presentations</div>
-  <!-- LLM 2024 H1 Rewind  -->
-  <div class="cv-selected row cv-entry" id="llm_2024_h1">
+  </article>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span>Conference Publications</span>
+</div>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span>Presentations</span>
+</div>
+  <article class="cv-selected row cv-entry" id="llm_2024_h1">
     <input type="checkbox" class="abstract-guard" id="llm_2024_h1-toggle">
     <div class="cv-left">
-        <label class="showmore material-icons" for="llm_2024_h1-toggle"></label>
-        <i class="material-icons disabled">description</i>
-        <a href="files/presentations/llm_2024_h1.pdf"><i class="material-icons">airplay</i></a>
+        <label class="showmore entry-toggle" for="llm_2024_h1-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </span>
+        <a class="entry-action" href="files/presentations/llm_2024_h1.pdf" aria-label="Open presentation">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </a>
     </div>
     <div class="cv-right">
       <cite class="paper-title">LLM 2024 H1 Rewind</cite>
       <ul class="coauthor-list">
         <li>
             <a href="https://aaarkai.github.io">Kai Wang</a></li></ul>
-      <p><em>
+      <p class="publication-meta"><em>
         <time>2024</time>.
-      </em><p>
+      </em></p>
     </div>
     <div class="abstract">
       <p>For the first half of 2024, I have summarized and detailed the technologies used in various large language models (LLMs).</p>
     </div>
-  </div>
-<div class="cv-non-selected row pubtypeheader"><span>Manuscripts<br /><span style="font-size:0.6em"><em>Some manuscripts are available upon request.</em></span></span></div>
-<div class="cv-non-selected row pubtypeheader">Thesis</div>
-  <!-- 噪声提取格林函数在浅海声层析中的应用  -->
-  <div class="cv-non-selected row cv-entry" id="thesis">
+  </article>
+  <article class="cv-selected row cv-entry" id="agentic_coding_2026">
+    <input type="checkbox" class="abstract-guard" id="agentic_coding_2026-toggle">
+    <div class="cv-left">
+        <label class="showmore entry-toggle" for="agentic_coding_2026-toggle">
+          <svg class="science-icon icon--toggle" aria-hidden="true"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+          <span class="visually-hidden">Toggle abstract</span>
+        </label>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </span>
+        <a class="entry-action" href="https://aaarkai.github.io/agentic_coding_talk/" aria-label="Open presentation">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </a>
+    </div>
+    <div class="cv-right">
+      <cite class="paper-title">Agentic Coding</cite>
+      <ul class="coauthor-list">
+        <li>
+            <a href="https://aaarkai.github.io">Kai Wang</a></li></ul>
+      <p class="publication-meta"><em>
+        <time>2026</time>.
+      </em></p>
+    </div>
+    <div class="abstract">
+      <p>Introduce agentic coding for internal team, include harness engineering, plan mode and code mode.</p>
+    </div>
+  </article>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span><span>Manuscripts<br /><span style="font-size:0.6em"><em>Some manuscripts are available upon request.</em></span></span></span>
+</div>
+<div class="cv-non-selected row pubtypeheader">
+  <span class="pubtypeheader__marker" aria-hidden="true">
+    <svg class="science-icon"><use href="/files/theme/sprite.svg#square-marker"></use></svg>
+  </span>
+  <span>Thesis</span>
+</div>
+  <article class="cv-non-selected row cv-entry" id="thesis">
     <input type="checkbox" class="abstract-guard" id="thesis-toggle">
     <div class="cv-left">
-        <i class="material-icons disabled">expand_more</i>
-        <a href="files/papers/thesis.pdf"><i class="material-icons">description</i></a>
-        <i class="material-icons disabled">airplay</i>
+        <span class="entry-toggle is-disabled" aria-hidden="true">
+          <svg class="science-icon icon--toggle"><use href="/files/theme/sprite.svg#toggle-icon"></use></svg>
+        </span>
+        <a class="entry-action" href="files/papers/thesis.pdf" aria-label="Open paper PDF">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#paper-icon"></use></svg>
+        </a>
+        <span class="entry-action is-disabled" aria-hidden="true">
+          <svg class="science-icon"><use href="/files/theme/sprite.svg#talk-icon"></use></svg>
+        </span>
     </div>
     <div class="cv-right">
       <cite class="paper-title">噪声提取格林函数在浅海声层析中的应用</cite>
       <ul class="coauthor-list">
         <li>
             <a href="https://aaarkai.github.io">Kai Wang</a></li></ul>
-      <p><em>
+      <p class="publication-meta"><em>
         <time>2021</time>.
-      </em><p>
+      </em></p>
     </div>
-  </div>
+  </article>
+</section>
+</main>
 </div>
 </body>
 </html>

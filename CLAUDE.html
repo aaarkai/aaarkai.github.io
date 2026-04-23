@@ -18,11 +18,21 @@
             integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
             crossorigin="anonymous"
         />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link
             rel="stylesheet"
             href="/css/default.css"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/visual-language.css?v=20260424"
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="/css/blog.css" crossorigin="anonymous" />
@@ -34,30 +44,71 @@
             href="https://aaarkai.github.io/rss.xml"
         />
     </head>
-    <body>
-        <header class="hide-on-print">
-            <div id="site-title">
-                <a href="/blog.html">Kai's Blog</a>
+    <body class="reading-page">
+        <div class="page-shell reading-shell">
+            <div
+                class="ornament-layer ornament-preset-reading-quiet reading-ornament-layer hide-on-print"
+                aria-hidden="true"
+            >
+                <svg
+                    class="ornament ornament--ink reading-ornament reading-ornament--top-grid science-ornament"
+                >
+                    <use href="/files/theme/sprite.svg#corner-grid"></use>
+                </svg>
+                <svg
+                    class="ornament ornament--warm reading-ornament reading-ornament--top-arc science-ornament"
+                >
+                    <use href="/files/theme/sprite.svg#arc-cluster"></use>
+                </svg>
+                <svg
+                    class="ornament ornament--accent reading-ornament reading-ornament--mid-orbit science-ornament"
+                >
+                    <use href="/files/theme/sprite.svg#orbit-ring"></use>
+                </svg>
+                <svg
+                    class="ornament ornament--numeric reading-ornament reading-ornament--footer-mark science-ornament"
+                >
+                    <use href="/files/theme/sprite.svg#numeric-mark"></use>
+                </svg>
             </div>
-        </header>
-        <nav class="hide-on-print">
-            <ul>
-                <li><a href="/">About</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/cnblog.html">中文博客</a></li>
-                <li><a href="/files/cv.pdf">CV</a></li>
-                <li><a href="/pages/tools.html">Tools</a></li>
-                <li>
-                    <a href="https://aaarkai.github.io/running_page/"
-                        >Running Page</a
-                    >
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <article>
-                <h1 id="article-title"></h1>
-                <h1 data-number="1" id="claude.md"><span
+
+            <header class="site-header hide-on-print">
+                <div class="site-header__inner">
+                    <div id="site-title">
+                        <a href="/blog.html">Kai's Blog</a>
+                    </div>
+                </div>
+            </header>
+
+            <nav class="site-nav hide-on-print" aria-label="Primary">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/cnblog.html">中文博客</a></li>
+                    <li><a href="/files/cv.pdf">CV</a></li>
+                    <li><a href="/pages/tools.html">Tools</a></li>
+                    <li>
+                        <a href="https://aaarkai.github.io/running_page/"
+                            >Running Page</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+
+            <main class="reading-main">
+                <article class="reading-article">
+                    <header class="article-header">
+                        <div class="article-header__rule" aria-hidden="true">
+                            <span class="article-header__marker">
+                                <svg class="science-icon">
+                                    <use href="/files/theme/sprite.svg#square-marker"></use>
+                                </svg>
+                            </span>
+                            <span class="article-header__line"></span>
+                        </div>
+                        <h1 id="article-title"></h1>
+                    </header>
+                    <div class="article-content"><h1 data-number="1" id="claude.md"><span
 class="header-section-number">1</span> CLAUDE.md</h1>
 <p>This file provides guidance to Claude Code (claude.ai/code) when
 working with code in this repository.</p>
@@ -215,21 +266,25 @@ lowerCamelCase functions, explicit imports</li>
 YAML front matter with at least <code>title:</code></li>
 <li><strong>Commits:</strong> Small, descriptive, present-tense (e.g.,
 <code>Add cnpost: fluid-dynamics basics</code>)</li>
-</ul>
-            </article>
-        </main>
-        <footer class="hide-on-print">
-            © 2024 -
-            <time
-                ><script>
-                    document.write(new Date().getFullYear());
-                </script></time
-            >
-            <a href="https://aaarkai.github.io" rel="author">Kai Wang</a>.
-            Licensed under a
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-                >Creative Commons Attribution 4.0 International License</a
-            >. <a href="/README.html">Blog README</a>.
-        </footer>
+</ul></div>
+                </article>
+            </main>
+
+            <footer class="site-footer hide-on-print">
+                © 2024 -
+                <time
+                    ><script>
+                        document.write(new Date().getFullYear());
+                    </script></time
+                >
+                <a href="https://aaarkai.github.io" rel="author">Kai Wang</a>.
+                Licensed under a
+                <a
+                    rel="license"
+                    href="http://creativecommons.org/licenses/by/4.0/"
+                    >Creative Commons Attribution 4.0 International License</a
+                >. <a href="/README.html">Blog README</a>.
+            </footer>
+        </div>
     </body>
 </html>

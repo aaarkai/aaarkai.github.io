@@ -11,7 +11,14 @@
         <item>
     <title>Shower-curtain effect</title>
     <link>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</link>
-    <description><![CDATA[<div><p>Moved into a new home, I noticed the shower curtain always gets
+    <description><![CDATA[<div class="post-meta hide-on-print">
+    <span class="meta-item"
+        >By <a href="https://aaarkai.github.io">Kai Wang</a></span
+    >
+    <span class="meta-item"><time datetime="2024-07-13">2024-07-13</time></span>
+    <span class="meta-item">Tags: writing life</span>
+</div>
+<div class="article-body"><p>Moved into a new home, I noticed the shower curtain always gets
 sucked onto my body while showering, which is quite annoying.</p>
 <p>After some research, I found that this phenomenon, known as the <a
 href="https://en.wikipedia.org/wiki/Shower-curtain_effect">Shower
@@ -31,13 +38,6 @@ difference between the inside and outside, causing the curtain to move
 inward.</p>
 <p>The solution is simple: use hooks to secure the bottom of the curtain
 or weigh it down.</p></div>
-<div class="post-meta hide-on-print">
-    <span class="meta-item"
-        >By <a href="https://aaarkai.github.io">Kai Wang</a></span
-    >
-    <span class="meta-item"><time datetime="2024-07-13">2024-07-13</time></span>
-    <span class="meta-item">Tags: writing life</span>
-</div>
 ]]></description>
     <pubDate>Sat, 13 Jul 2024 00:00:00 UT</pubDate>
     <guid>https://aaarkai.github.io/posts/2024-07-13-Shower-curtain%20effect.html</guid>
